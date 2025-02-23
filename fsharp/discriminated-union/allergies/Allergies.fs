@@ -31,3 +31,10 @@ let list codedAllergies =
 
     loopWise(codedAllergies, allergiesList)
     |> List.rev
+
+// alternative
+let list2 codedAllergies = 
+    Enum.GetValues(typeof<Allergen>) 
+    :?> (Allergen []) 
+    |> List.ofArray
+    |> List.filter (allergicTo codedAllergies)
