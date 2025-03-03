@@ -1,5 +1,5 @@
 // https://exercism.org/tracks/fsharp/exercises/yacht/solutions/sanderploegsma
-module Yacht
+module Yacht_alternative_1
 
 type Category =
     | Ones
