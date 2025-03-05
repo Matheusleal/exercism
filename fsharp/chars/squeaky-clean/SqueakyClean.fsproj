@@ -5,7 +5,7 @@
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
-  <ItemGroup>
+  <ItemGroup><Compile Include="SqueakyClean_alternative_1.fs" />
     <Compile Include="SqueakyClean.fs" />
     <Compile Include="SqueakyCleanTests.fs" />
   </ItemGroup>
