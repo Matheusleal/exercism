@@ -7,11 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Yacht.fs" />
-    <Compile Include="Yacht_v2.fs" />
-    <Compile Include="Yacht_alternative_1.fs" />
-    <Compile Include="Yacht_alternative_2.fs" />
-    <Compile Include="YachtTests.fs" />
+    <Compile Include="Pangram.fs" />
+    <Compile Include="Pangram_alternative_1.fs" />
+    <Compile Include="PangramTests.fs" />
   </ItemGroup>
 
   <ItemGroup>

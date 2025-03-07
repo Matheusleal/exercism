@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Yacht.fs" />
-    <Compile Include="Yacht_v2.fs" />
-    <Compile Include="Yacht_alternative_1.fs" />
-    <Compile Include="Yacht_alternative_2.fs" />
-    <Compile Include="YachtTests.fs" />
+    <Compile Include="KindergartenGarden.fs" />
+    <Compile Include="KindergartenGarden_alternative_1.fs" />
+    <Compile Include="KindergartenGarden_alternative_2.fs" />
+    <Compile Include="KindergartenGarden_alternative_3.fs" />
+    <Compile Include="KindergartenGardenTests.fs" />
   </ItemGroup>
 
   <ItemGroup>

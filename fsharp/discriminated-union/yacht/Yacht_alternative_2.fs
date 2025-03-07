@@ -1,5 +1,5 @@
 // https://exercism.org/tracks/fsharp/exercises/yacht/solutions/Chiel-B
-module Yacht
+module Yacht_alternative_2
 
 type Category = 
     | Ones

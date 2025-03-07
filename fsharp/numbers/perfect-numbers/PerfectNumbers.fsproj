@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -6,12 +6,9 @@
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="Yacht.fs" />
-    <Compile Include="Yacht_v2.fs" />
-    <Compile Include="Yacht_alternative_1.fs" />
-    <Compile Include="Yacht_alternative_2.fs" />
-    <Compile Include="YachtTests.fs" />
+  <ItemGroup><Compile Include="tests.fsx" />
+    <Compile Include="PerfectNumbers.fs" />
+    <Compile Include="PerfectNumbersTests.fs" />
   </ItemGroup>
 
   <ItemGroup>

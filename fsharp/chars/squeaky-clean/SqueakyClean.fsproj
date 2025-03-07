@@ -1,17 +1,13 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="Yacht.fs" />
-    <Compile Include="Yacht_v2.fs" />
-    <Compile Include="Yacht_alternative_1.fs" />
-    <Compile Include="Yacht_alternative_2.fs" />
-    <Compile Include="YachtTests.fs" />
+  <ItemGroup><Compile Include="SqueakyClean_alternative_1.fs" />
+    <Compile Include="SqueakyClean.fs" />
+    <Compile Include="SqueakyCleanTests.fs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,6 +15,7 @@
     <PackageReference Include="xunit" Version="2.4.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3" />
     <PackageReference Include="FsUnit.xUnit" Version="4.0.4" />
+    <PackageReference Include="Exercism.Tests" Version="0.1.0-beta1" />
   </ItemGroup>
 
 </Project>
